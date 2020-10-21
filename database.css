@@ -1,0 +1,48 @@
+#singers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#singers td, #singers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#singers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#singers tr:hover {
+    background-color: #ddd;
+}
+
+#singers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#btn_delete {
+    background-color: red;
+}
+
+#btn_add {
+    background-color: #4CAF50;
+}
+
+

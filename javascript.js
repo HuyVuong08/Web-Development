@@ -45,6 +45,7 @@ function sortAsc(array){
 }
 
 array1 = [1,2,11,3,4,-55,-99,-1,-22];
+console.log(array1[findMin(array1)]);
 console.log(array1[findMax(array1)]);
 console.log(sortDesc(array1));
 console.log(sortAsc(array1));
