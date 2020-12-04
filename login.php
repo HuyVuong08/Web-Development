@@ -9,6 +9,7 @@
 <body>
     <?php
         include 'header.html';
+        setcookie($cookie_name, $cookie_value, time() - (6400 * 30), "/");
     ?>
     <form action="login_processing.php" class="form">
         <div class="container">

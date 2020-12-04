@@ -10,11 +10,11 @@
 }
 
 #singers tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #e6e6e6;
 }
 
 #singers tr:hover {
-    background-color: #ddd;
+    background-color: #d9d9d9;
 }
 
 #singers th {

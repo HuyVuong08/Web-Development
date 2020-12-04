@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="user_header.css">
 
 <div id="Home" class="tabcontent">
     <h1>Home</h1>
@@ -17,13 +17,13 @@
 </div>
 
 <div id="About" class="tabcontent">
-    <h1>Add More</h1>
+    <h1>About</h1>
     <p>About us.</p>
 </div>
 
-<div id="Login" class="tabcontent">
-    <h1>Login</h1>
-    <p>Tap here to login.</p>
+<div id="Logout" class="tabcontent">
+    <h1>Logout</h1>
+    <p>Tap here to logout.</p>
 </div>
 
 <button class="tablink" 
@@ -45,11 +45,12 @@
 <button class="tablink" 
     onclick ="window.location.href='index.php?page=about';"
     onmouseover="openItem('About', this, 'orange')">
-        Add
+        About
 </button>
 <button class="tablink" 
-    onclick ="window.location.href='index.php?page=login';"
-    onmouseover="openItem('Login', this, 'purple')">
-        Login
+    onclick ="window.location.href='index.php?page=home';"
+    onmouseover="openItem('Logout', this, 'purple')">
+        Logout
 </button>
 <script src="index.js"></script>
+
